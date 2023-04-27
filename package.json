@@ -1,0 +1,23 @@
+{
+  "name": "shopify-rnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/shopify-api": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "multipassify": "^1.1.0",
+    "nodemon": "^2.0.22",
+    "shopify-node-api": "^1.11.1"
+  }
+}
